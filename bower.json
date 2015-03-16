@@ -1,0 +1,20 @@
+{
+  "name": "angular-mixin-example",
+  "version": "0.0.1",
+  "authors": [
+    "Philipp Tarasiewicz <philipp.tarasiewicz@googlemail.com>"
+  ],
+  "main": "app/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.14"
+  }
+}

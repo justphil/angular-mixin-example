@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="mixin">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <div ng-controller="CtrlA as a">
+        <span ng-bind="a.foo"></span>
+        <button ng-click="a.alert()">click me</button>
+    </div>
+
+    <div ng-controller="CtrlB as b">
+        <span ng-bind="b.foo"></span>
+        <button ng-click="b.alert()">click me</button>
+    </div>
+
+
+
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/CtrlA.js"></script>
+    <script src="scripts/controllers/CtrlB.js"></script>
+    <script src="scripts/services/PiMixin.js"></script>
+    <script src="scripts/services/RandMixin.js"></script>
+</body>
+</html>
